@@ -78,9 +78,10 @@
 document.querySelector('#page-wrapper').addEventListener('click', el => {
 	// el.target.cloest('.button');
 	const btn = el.target.closest('.large');
+	const btn2 = el.target.closest('#test');
 	// console.log('qqq')
 	// if (btn) {
-	if (btn)
+	if (btn2)
 	alert('涵哥加油! :)');
 	// }
 });
