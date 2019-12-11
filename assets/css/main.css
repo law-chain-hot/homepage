@@ -1787,8 +1787,8 @@ input, select, textarea {
 		.image:hover {
 			/* background-color: rgba(61, 51, 117, 0.925); */
 			/* transition: all .5s; */
-			transform: scale(1.2); 
-			opacity: 0.5;
+			transform: scale(1.07); 
+			opacity: 0.8;
 		}
 
 			.image.centered img {
@@ -2552,8 +2552,14 @@ input, select, textarea {
 				#banner .content {
 					padding: 4em 0 3em 0;
 				}
+					/* #banner .content2 {
+						padding: 0 0 0 5em;
+						margin-left: 5em; */
+						/* border-left: 1em; */
+					/* } */
 
 					#banner .content h2 {
+						text-indent : 1em;
 						margin: 0 0 0.65em 0;
 					}
 
