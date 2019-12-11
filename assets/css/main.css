@@ -86,17 +86,17 @@ input, select, textarea {
 		background: #f2f5f3;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
+		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after { */
+			/* -moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
-			transition: none !important;
+			transition: none !important; */
 			/* transition: all .5s; */
-		}
+		/* } */
 
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
@@ -1742,7 +1742,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border-radius: 8px;
-		transition: all 1s;
+		transition: 0.3s ease-in-out;
 	}
 
 		.image img {
@@ -1771,7 +1771,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
-			transition: all 1s 1s;
+			/* transition: all 1s; */
 		}
 
 		.image.left {
