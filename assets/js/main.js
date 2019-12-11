@@ -82,6 +82,6 @@ document.querySelector('#page-wrapper').addEventListener('click', el => {
 	// console.log('qqq')
 	// if (btn) {
 	if (btn2)
-	alert('HGJY! :)');
+	alert('HGJY! :) Pig you are');
 	// }
 });
