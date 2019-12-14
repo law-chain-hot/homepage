@@ -1778,6 +1778,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			height: 100%;
 			/* transition: all 1s; */
 		}
 
