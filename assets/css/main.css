@@ -2241,6 +2241,7 @@ input, select, textarea {
 	.box.feature {
 		text-align: center;
 		background: rgba(33, 29, 54, 0.700);
+		height:100%;
 	}
 
 	.box.post header {
@@ -2444,7 +2445,7 @@ input, select, textarea {
 		border-top-width: 35px;
 		border-bottom-width: 10px; */
 		padding: 3em 0 5em 0;
-		margin: 5em;
+		margin: 5em 1.5em;
 	}
 
 /* Sidebar + Content */
@@ -2925,4 +2926,16 @@ input, select, textarea {
 				font-size: 10pt;
 			}
 
+	}
+
+
+
+	.img-box {
+		height: 120px;
+		margin-bottom: 30px;
+	}
+
+	.img-self {
+		height:100%;
+		object-fit: cover;
 	}
